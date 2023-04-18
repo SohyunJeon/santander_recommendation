@@ -13,8 +13,8 @@ def generate_config():
     }
 
     config['path'] = {
-        'data':  '././data/',
-        'model':  '././model/',
+        'data':  './data/',
+        'model':  './model/',
     }
 
     with open('./config.ini', 'w', encoding='utf-8') as configfile:
